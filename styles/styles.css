@@ -1,0 +1,130 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f0f0;
+    color: #555;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+h1, h2 {
+    margin-top: 30px;
+    text-align: center;
+    color: #3498db;
+}
+
+main {
+    width: 70%;
+    margin: auto;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+li {
+    margin-right: 15px;
+}
+
+.container-form {
+    max-width: 60%;
+    margin: auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+label {
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #3498db;
+}
+
+input, select {
+    margin-bottom: 15px;
+    padding: 12px;
+    border: 2px solid #3498db;
+    border-radius: 5px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+input[type="submit"], input[type="button"] {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 12px 20px;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #2980b9;
+}
+
+span {
+    color: #e74c3c;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+th, td {
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+td {
+    color: #666;
+}
+
+th {
+    background-color: #3498db;
+    color: white;
+    font-weight: bold;
+}
+
+.tabla-container {
+    max-width: 80%;
+    margin: auto;
+}
+
+.listado-container {
+    max-width: 75%;
+}
+
+.boton-container {
+    margin-block: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #3498db;
+}
+
+.listado-servicios li::marker {
+    content: '➤';
+    color: #3498db;
+}
